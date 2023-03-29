@@ -1,0 +1,3 @@
+const token = "sl.BbicERBoV6VR38P4M_ttm62cBbC2usBH2RtMfiXkZqkQn-EuQ2QraM3uPKeh9A3bWbYPt0hF3vHn2ig8QOXIi0JkRJTym_7FLADBuL62JgsHAGRLM8awNAvplTZpCf0nt55POvSv";
+
+export default token;

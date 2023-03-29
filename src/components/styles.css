@@ -1,0 +1,29 @@
+.title {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-details {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.multi-folder, .requests {
+    margin-left: 30px;
+}
+
+span {
+    font-weight: bold;
+    color: black;
+}
+
+@media (max-width: 1100px) {
+    .multi-folder, .requests {
+        margin-left: 15px;
+    }
+}

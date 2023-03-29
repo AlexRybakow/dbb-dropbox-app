@@ -3,7 +3,6 @@ import "../components/styles.css";
 import Alert from '@mui/material/Alert'
 import Button from '@mui/material/Button';
 import ShowDetails from './Details';
-import token from './api';
 
 const GetRequests = () => {
   const [requests, setRequests] = useState<string | boolean>(false)
@@ -20,7 +19,7 @@ const GetRequests = () => {
           method: "POST",
           body: "null",
           headers: {
-            Authorization: `Bearer ${token}`,
+            Authorization: `Bearer ${process.env.REACT_APP_TOKEN}`,
             "Content-Type": "application/json"
           },
         });

@@ -5,6 +5,7 @@ import DropboxChooser from 'react-dropbox-chooser'
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
+import SendIcon from '@mui/icons-material/Send';
 import Typography from '@mui/material/Typography'
 import Alert from '@mui/material/Alert';
 
@@ -80,7 +81,7 @@ export const Home = () => {
               <Typography textAlign="center">Automation</Typography>
             </MenuItem>
           </Menu>
-          <Button variant="contained" className="requests" onClick={ShowRequests}>Show Requests</Button>
+          <Button variant="contained" endIcon={<SendIcon />} className="requests" onClick={ShowRequests}>Show Requests</Button>
         </div>
         <br /><br />
         <h3>Uploaded Files</h3>

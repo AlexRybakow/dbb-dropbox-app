@@ -15,7 +15,6 @@ export const Home = () => {
   const [shownRequests, setShownRequests] = useState<boolean>(false)
   function handleSuccess(files: { thumbnailLink: React.SetStateAction<string>; }[]) {
     setLink(files[0].thumbnailLink)
-    console.log(link)
   }
   const handleOpenOrganiseMenu = (event: React.MouseEvent<HTMLElement>) => {
     setAnchor(event.currentTarget);
@@ -85,6 +84,7 @@ export const Home = () => {
         </div>
         <br /><br />
         <h3>Uploaded Files</h3>
+        {link !== "" ? <img src={link} alt="dropbox"/> : null}
         {openedMsg ? <AlertMessage /> : null}
         {shownRequests ? <GetRequests /> : null}
       </div>

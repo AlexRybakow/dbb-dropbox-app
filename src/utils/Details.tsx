@@ -16,7 +16,7 @@ const ShowDetails = () => {
             'id': 'KnplCPjNUQ7yTHpxmiic'
           }),
           headers: {
-            Authorization: "Bearer sl.Bbf7-s1XZ5JDk2wktHRyrNIjknYgT8JIIgSWKqnHU4CVOne_zfEdEx_GCCC0GMDPDcHbWb3WBAGMiwt4iXRqGXihTqz5xVlKA_PAHbpNIbp1inVdbSZNDyxAsPKSv3RnAAeLVt03",
+            Authorization: `Bearer ${process.env.REACT_APP_TOKEN}`,
             "Content-Type": "application/json"
           },
         });

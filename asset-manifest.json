@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dbb-dropbox-task/static/css/main.59b5170d.css",
+    "main.js": "/dbb-dropbox-task/static/js/main.b7bb6d44.js",
+    "static/js/787.223e99dc.chunk.js": "/dbb-dropbox-task/static/js/787.223e99dc.chunk.js",
+    "index.html": "/dbb-dropbox-task/index.html",
+    "main.59b5170d.css.map": "/dbb-dropbox-task/static/css/main.59b5170d.css.map",
+    "main.b7bb6d44.js.map": "/dbb-dropbox-task/static/js/main.b7bb6d44.js.map",
+    "787.223e99dc.chunk.js.map": "/dbb-dropbox-task/static/js/787.223e99dc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59b5170d.css",
+    "static/js/main.b7bb6d44.js"
+  ]
+}
